@@ -37,28 +37,27 @@ nav.site-navigation-bar a:hover {
 
 .wrapper1 {
   padding-left: 200px;
+  width: 100%;
+  position: relative;
+}
+#sec1-photo {
+  position: absolute;
+  margin-top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+#sec1-text {
+  position: absolute;
+  left: 50%;
+  right: 0;
+  padding-top: 50px;
 }
 
 .wrapper1 div{
   height:100vh;
 }
 
-img#photo1 {
-  margin-top: 50px;
-  max-width: 100%;
-  height: auto;
-}
-
-div#sec1-photo {
-  width: 40%;
-  float: left;
-}
-
-div#sec1-text {
-  width: 50%;
-  float: right;
-  margin-top: 50px;
-}
 
 @media only screen and (max-width: 600px) {
   .wrapper1 {
