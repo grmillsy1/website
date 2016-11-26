@@ -1,3 +1,9 @@
+
+.main-heading {
+  font-family: 'Zeyada', cursive;
+  font-size: 25pt;
+}
+
 .active {
   background-image: url('arrow1.png');
   background-repeat: no-repeat;
@@ -6,52 +12,133 @@
 }
 
 nav.site-navigation-bar {
-  width: 15%;
+  width: 12%;
   height: 100%;
-  /*background-color: #E3E0E5;*/
   position: fixed;
   top: 0%;
   left: 0;
+  font-family: 'Cutive Mono', monospace;
 }
 
 nav.site-navigation-bar li{
   padding-left: 0x;
-  margin-top: 60px;
+  margin-top: 50px;
   width: 100%;
   list-style: none;
+  text-align: right;
 }
 
 nav.site-navigation-bar ul{
-  margin-top: 10px;
+  margin-top: 115px;
 
 }
 
 nav.site-navigation-bar a:visited, a:link, a:active {
   text-decoration: none;
-  color:#B9B9B9;
+  color: black;
 }
 
 nav.site-navigation-bar a:hover {
-  color: black;
+  color:#B9B9B9;
 }
 
 .wrapper1 {
   padding-left: 200px;
   width: 100%;
+  font-family: 'Cutive Mono', monospace;
+  /*position: relative;*/
+}
+#sec1 {
+  width: 100%;
   position: relative;
 }
 #sec1-photo {
   position: absolute;
-  margin-top: 50px;
+
   max-width: 100%;
   height: auto;
 }
 
 #sec1-text {
   position: absolute;
-  left: 50%;
+  left: 40%;
   right: 0;
-  padding-top: 50px;
+
+}
+
+#sec2 {
+  width: 100%;
+  position: relative;
+  margin-top: 250px;
+}
+
+#sec2-text {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+#sec2-photo {
+  position: absolute;
+  left: 40%;
+  right: 0;
+}
+
+#sec3 {
+  width: 100%;
+  position: relative;
+  margin-top: 250px;
+}
+
+#sec3-photo {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+#sec3-text {
+  position: absolute;
+  left: 40%;
+  right: 0;
+  width: 50%;
+}
+
+#sec4 {
+  width: 100%;
+  position: relative;
+  margin-top: 250px;
+}
+
+#sec4-text {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+#sec4-photo {
+  position: absolute;
+  left: 40%;
+  right: 0;
+  width: 50%;
+}
+
+#sec5 {
+  width: 100%;
+  position: relative;
+  margin-top: 250px;
+}
+
+#sec5-photo {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+#sec5-text {
+  position: absolute;
+  left: 40%;
+  right: 0;
+  width: 50%;
 }
 
 .wrapper1 div{
@@ -65,11 +152,12 @@ nav.site-navigation-bar a:hover {
   }
 
   div#sec1-photo {
-    width: 90%;
+    max-width: 500px;
     float: none;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
   }
 
   div#sec1-text {

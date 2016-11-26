@@ -1,7 +1,7 @@
 
 
 // $(function() {
-// if ($( window ).width() >= 604) {
+// if ($( window ).width() >= 600) {
 
 var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0.05,}});
 
@@ -26,6 +26,13 @@ var scene2 = new ScrollMagic.Scene({
     .setClassToggle("#menu2", "active") // add class toggle
     .addIndicators()
     .addTo(controller);
+
+  var scene2b = new ScrollMagic.Scene({
+    triggerElement: "#photo2",
+    duration: 350})
+       .setPin('#sec2-text')
+       .addIndicators()
+       .addTo(controller);
 
 var scene3 = new ScrollMagic.Scene({
   triggerElement: "#sec3",
@@ -56,4 +63,4 @@ var scene5 = new ScrollMagic.Scene({
     .addTo(controller);
 
 // )}
-// }
+ // }
