@@ -107,6 +107,7 @@ nav.site-navigation-bar a:hover {
   position: absolute;
   max-width: 120%;
   height: auto;
+  z-index: 31;
 }
 
 #sec3-text {
@@ -114,6 +115,15 @@ nav.site-navigation-bar a:hover {
   left: 47%;
   right: 0;
   width: 50%;
+  z-index: 32;
+}
+
+#sec3-heading {
+  position: absolute;
+  left: 30%;
+  z-index: 33;
+  font-size: 30pt !important;
+  top: -77px;
 }
 
 #sec4 {
@@ -122,18 +132,29 @@ nav.site-navigation-bar a:hover {
   margin-top: 250px;
 }
 
+#sec4-heading {
+  position: absolute;
+  left:40%;
+  z-index: 43;
+  font-size: 30pt !important;
+  top: -77px;
+}
+
+
 #sec4-text {
   position: absolute;
   right: 55%;
   max-width: 100%;
   height: auto;
   text-align: right;
+  z-index: 42;
 }
 
 #sec4-photo {
   position: absolute;
   left: 47%;
   right: 0;
+  z-index: 41;
 }
 
 #sec5 {
