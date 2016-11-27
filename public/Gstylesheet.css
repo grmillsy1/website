@@ -44,7 +44,7 @@ nav.site-navigation-bar a:hover {
 
 .wrapper1 {
   padding-left: 200px;
-  width: 100%;
+  width: 80%;
   font-family: 'Cutive Mono', monospace;
   /*position: relative;*/
 }
@@ -54,14 +54,13 @@ nav.site-navigation-bar a:hover {
 }
 #sec1-photo {
   position: absolute;
-
   max-width: 100%;
   height: auto;
 }
 
 #sec1-text {
   position: absolute;
-  left: 40%;
+  left: 50%;
   right: 0;
 
 }
@@ -80,7 +79,7 @@ nav.site-navigation-bar a:hover {
 
 #sec2-photo {
   position: absolute;
-  left: 40%;
+  left: 50%;
   right: 0;
 }
 
@@ -98,7 +97,7 @@ nav.site-navigation-bar a:hover {
 
 #sec3-text {
   position: absolute;
-  left: 40%;
+  left: 50%;
   right: 0;
   width: 50%;
 }
@@ -117,7 +116,7 @@ nav.site-navigation-bar a:hover {
 
 #sec4-photo {
   position: absolute;
-  left: 40%;
+  left: 50%;
   right: 0;
   width: 50%;
 }
@@ -136,7 +135,7 @@ nav.site-navigation-bar a:hover {
 
 #sec5-text {
   position: absolute;
-  left: 40%;
+  left: 50%;
   right: 0;
   width: 50%;
 }
