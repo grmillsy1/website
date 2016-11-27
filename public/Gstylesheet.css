@@ -22,7 +22,7 @@ nav.site-navigation-bar {
 
 nav.site-navigation-bar li{
   padding-left: 0x;
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   list-style: none;
   text-align: right;
@@ -44,7 +44,7 @@ nav.site-navigation-bar a:hover {
 
 .wrapper1 {
   padding-left: 200px;
-  width: 80%;
+  width: 82%;
   font-family: 'Cutive Mono', monospace;
   /*position: relative;*/
 }
@@ -60,7 +60,7 @@ nav.site-navigation-bar a:hover {
 
 #sec1-text {
   position: absolute;
-  left: 50%;
+  left: 48%;
   right: 0;
 
 }
@@ -69,18 +69,32 @@ nav.site-navigation-bar a:hover {
   width: 100%;
   position: relative;
   margin-top: 250px;
+  height: 60vh !important;
 }
 
 #sec2-text {
   position: absolute;
   max-width: 100%;
   height: auto;
+  text-align: right;
+  z-index: 19;
+}
+
+#sec2-line {
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  max-width: 100%;
+  height: auto;
+  z-index: 20;
 }
 
 #sec2-photo {
   position: absolute;
-  left: 50%;
-  right: 0;
+  width: 55%;
+  left: 48%;
+  top: 30%;
+  z-index: 18;
 }
 
 #sec3 {
@@ -91,13 +105,13 @@ nav.site-navigation-bar a:hover {
 
 #sec3-photo {
   position: absolute;
-  max-width: 100%;
+  max-width: 120%;
   height: auto;
 }
 
 #sec3-text {
   position: absolute;
-  left: 50%;
+  left: 47%;
   right: 0;
   width: 50%;
 }
@@ -110,15 +124,16 @@ nav.site-navigation-bar a:hover {
 
 #sec4-text {
   position: absolute;
+  right: 55%;
   max-width: 100%;
   height: auto;
+  text-align: right;
 }
 
 #sec4-photo {
   position: absolute;
-  left: 50%;
+  left: 47%;
   right: 0;
-  width: 50%;
 }
 
 #sec5 {
@@ -135,9 +150,29 @@ nav.site-navigation-bar a:hover {
 
 #sec5-text {
   position: absolute;
-  left: 50%;
+  left: 47%;
   right: 0;
   width: 50%;
+}
+
+#sec6 {
+  width: 100%;
+  position: relative;
+  margin-top: 250px;
+}
+
+#sec6-text {
+  position: absolute;
+  right: 55%;
+  max-width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+#sec6-photo {
+  position: absolute;
+  left: 47%;
+  right: 0;
 }
 
 .wrapper1 div{
